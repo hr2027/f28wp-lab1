@@ -1,20 +1,24 @@
 /* Reset Styles */
 
-body {
-    background: scroll;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    color: #505050;
+*{
+    font-family: 'DM Sans', sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    color: #1C3A13;
+}
 
 /* Header Styles */
 header {
-    background: linear-gradient(301deg, #1a1a74, #000);
-    color: #fff;
+    background-color: palegoldenrod;
+    color: black;
     text-align: center;
     padding: 20px;
+    position: sticky;
+    top: 0;
 }
 
 .headeraH1 {
@@ -35,12 +39,12 @@ header {
 
 /* Navigation Styles */
 nav ul {
-    background-color: #000000;
+    background-color: #333;
     color: #fff;
     text-align: center;
     list-style-type: none;
     margin: 0;
-    padding: 7px;
+    padding: 20px;
 }
 
 nav li {
@@ -57,7 +61,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #505050;  /* Darker shade for hover */
+    background-color: #0056b3;  /* Darker shade for hover */
 }
 
 /* Banner Styles */
@@ -71,22 +75,30 @@ nav a:hover {
 }
 
 .centered-banner {
-    padding: 3px;
+    padding: 30px;
     max-width: 80%;
     height: auto;
 }
 
 /* Main Content Styles */
 main {
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 0px;
+    padding: 20px;
 }
 
 .services {
     margin: 2rem auto;
     padding: 2rem;
     background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.services img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: auto; 
 }
 
 main h3 {
@@ -111,7 +123,7 @@ main h3 {
 }
 
 .service-column img {
-    width: 250px;
+    max-width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
@@ -136,41 +148,39 @@ main h3 {
 }
 
 /* Call to Action Styles */
-.cta-container{
-    padding: 20px;
-    background-color: #ad9ecf;
-    margin-top: 20px;
+.cta-container {
     text-align: center;
-    border: 1px #000000;
-    border-style: double;
-    
+    padding: 40px;
+    background-color: navajowhite;
+    margin-top: 30px;
+    font-size: 15px;
 }
 
-.cta-container h2{
-    font-size: 24px;
-    text-transform: capitalize;
+.cta-container h2 {
+    text-transform: uppercase; /* Uppercase text */
+    color: brown;
 }
 
 .cta-container p {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px; /* Increased font size */
+    font-weight: bold; /* Bold font */
 }
 
 .cta-button {
-   display: inline-block;
+    display: inline-block;
     padding: 10px 20px;
-    background-color: #000000;
+    background-color: peru;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
     font-weight: bold;
     margin-top: 15px;
     transition: background-color 0.3s;
 }
 
 .cta-button:hover {
-    background-color: #ad9ecf;
-    color: #000000;
+    background-color: #0056b3;
 }
 
 /* Footer Styles */
