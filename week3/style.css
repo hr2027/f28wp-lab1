@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #505050;
+    color: #fff8f8;
 }
  
 /* Header Styles */
@@ -12,8 +12,8 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: #97cedb;
-    color: #2a536b;
+    background-color: #dbc597;
+    color: #6b452a;
     text-align: center;
     padding: 20px;
     z-index: 10;
@@ -40,7 +40,7 @@ header {
 
 nav ul {
     background-color: #feffd9;
-    color: #f9c57d;
+    color: #7df9bd;
     text-align: center;
     list-style-type: none;
     height: 40px;
@@ -55,7 +55,7 @@ nav li {
 nav a {
     display: block;
     border-radius: 20px;
-    color: #433e3e;
+    color: #433e43;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
@@ -63,13 +63,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #eddec9;  /* different shade for hover */
+    background-color: #edd6c9;  /* different shade for hover */
     border-radius: 15px;
     transform: scale(1.1);
 }
 
 nav a.active {
-    background-color: #eec387;
+    background-color: #ee9f87;
     border-radius: 15px;
   }
 
@@ -247,13 +247,13 @@ p.cta-insides{
 }
 
 .cta-button:hover {
-    background-color: #eddec9;
+    background-color: #edd9c9;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #97cedb;
-    color: #2a536b;
+    background-color: #dbd097;
+    color: #6b2a2a;
     text-align: center;
     padding: 20px;
 }
@@ -268,7 +268,7 @@ footer li {
 }
 
 footer a {
-    color: #2a536b;
+    color: #6b442a;
     text-decoration: none;
     transition: color 0.3s;  /* Smooth transition for hover effect */
 }

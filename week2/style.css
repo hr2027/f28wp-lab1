@@ -4,17 +4,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #505050;
+    color: #fff8f8;
 }
  
 /* Header Styles */
 header {
-   position: sticky;
+    position: sticky;
     top: 0;
-    background-color: #97cedb;
-    color: #2a536b;
+    width: 100%;
+    background-color: #dbc597;
+    color: #6b452a;
     text-align: center;
     padding: 20px;
+    z-index: 10;
   
 }
 
@@ -38,7 +40,7 @@ header {
 
 nav ul {
     background-color: #feffd9;
-    color: #f9c57d;
+    color: #7df9bd;
     text-align: center;
     list-style-type: none;
     height: 40px;
@@ -53,7 +55,7 @@ nav li {
 nav a {
     display: block;
     border-radius: 20px;
-    color: #433e3e;
+    color: #433e43;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
@@ -61,13 +63,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #eddec9;  /* different shade for hover */
+    background-color: #edd6c9;  /* different shade for hover */
     border-radius: 15px;
     transform: scale(1.1);
 }
 
 nav a.active {
-    background-color: #eec387;
+    background-color: #ee9f87;
     border-radius: 15px;
   }
 
@@ -147,6 +149,71 @@ main h3 {
     }
 }
 
+
+/*Here, will be the Gallery slide show style*/ 
+* { 
+    box-sizing: border-box; 
+} 
+
+.slideshow-img { 
+    vertical-align: middle; 
+    width:100%;
+}
+
+/* Position the image container (needed to position the left and right arrows) */ 
+.container { 
+    position: relative; 
+} 
+
+/* Hide the images by default */ 
+.mySlides { 
+    display: none; 
+} 
+
+/* Add a pointer when hovering over the thumbnail images */ 
+.cursor { 
+    cursor: pointer; 
+} 
+
+/* Next & previous buttons */ 
+.prev,
+.next { 
+    cursor: pointer; 
+    position: absolute; 
+    top: 50%; 
+    width: auto;
+    padding: 16px;
+    margin-top: -50px; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 20px; 
+    border-radius: 0 3px 3px 0; 
+    user-select: none; 
+    -webkit-user-select: none; 
+} 
+
+/* Position the "next button" to the right */ 
+.next { 
+    right: 0; 
+    border-radius: 3px 0 0 3px; 
+} 
+
+/* On hover, add a black background color with a little bit see-through */ 
+.prev:hover, 
+.next:hover { 
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 5px;
+}
+/* Number text (1/3 etc) */ 
+.numbertext { 
+    color: #f2f2f2; 
+    font-size: 12px; 
+    padding: 8px 12px; 
+    position: absolute; 
+    top: 0; 
+}
+
+
 /* Call to Action Styles */
 h2.cta-insides{
     text-transform: uppercase;
@@ -180,13 +247,13 @@ p.cta-insides{
 }
 
 .cta-button:hover {
-    background-color: #eddec9;
+    background-color: #edd9c9;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #97cedb;
-    color: #2a536b;
+    background-color: #dbd097;
+    color: #6b2a2a;
     text-align: center;
     padding: 20px;
 }
@@ -201,7 +268,7 @@ footer li {
 }
 
 footer a {
-    color: #2a536b;
+    color: #6b442a;
     text-decoration: none;
     transition: color 0.3s;  /* Smooth transition for hover effect */
 }
