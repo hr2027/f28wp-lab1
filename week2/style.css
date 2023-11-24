@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #9e7e2d;
+    color: #505050;
 }
  
 /* Header Styles */
@@ -201,13 +201,13 @@ footer li {
 }
 
 footer a {
-    color: #0c4565;
+    color: #2a536b;
     text-decoration: none;
     transition: color 0.3s;  /* Smooth transition for hover effect */
 }
 
 footer a:hover {
-    color: #c39f9f;  /* Lighter color on hover */
+    color: #b3b3b3;  /* Lighter color on hover */
 }
 
 footer p {
