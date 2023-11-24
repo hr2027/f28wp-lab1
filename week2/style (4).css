@@ -1,24 +1,21 @@
+
 /* Reset Styles */
-
-*{
-    font-family: 'DM Sans', sans-serif;
-}
-
 body {
     margin: 0;
     padding: 0;
-    font-family: 'DM Sans', sans-serif;
-    color: #1C3A13;
+    font-family: Arial, sans-serif;
+    color: #9e7e2d;
 }
-
+ 
 /* Header Styles */
 header {
-    background-color: palegoldenrod;
-    color: black;
+   position: sticky;
+    top: 0;
+    background-color: #97cedb;
+    color: #2a536b;
     text-align: center;
     padding: 20px;
-    position: sticky;
-    top: 0;
+  
 }
 
 .headeraH1 {
@@ -38,13 +35,15 @@ header {
 
 
 /* Navigation Styles */
+
 nav ul {
-    background-color: #333;
-    color: #fff;
+    background-color: #feffd9;
+    color: #f9c57d;
     text-align: center;
     list-style-type: none;
+    height: 40px;
     margin: 0;
-    padding: 20px;
+    padding: 5px;
 }
 
 nav li {
@@ -53,16 +52,24 @@ nav li {
 
 nav a {
     display: block;
-    color: #fff;
+    border-radius: 20px;
+    color: #433e3e;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     transition: background-color 0.3s;  /* Smooth transition for hover effect */
 }
 
 nav a:hover {
-    background-color: #0056b3;  /* Darker shade for hover */
+    background-color: #eddec9;  /* different shade for hover */
+    border-radius: 15px;
+    transform: scale(1.1);
 }
+
+nav a.active {
+    background-color: #eec387;
+    border-radius: 15px;
+  }
 
 /* Banner Styles */
 .banner-container {
@@ -94,13 +101,6 @@ main {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.services img {
-    max-width: 100%;
-    height: auto; 
-    display: block; 
-    margin: auto; 
-}
-
 main h3 {
     margin-top: 20px;
 }
@@ -123,7 +123,7 @@ main h3 {
 }
 
 .service-column img {
-    max-width: 100%;
+    width: 180px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -148,45 +148,45 @@ main h3 {
 }
 
 /* Call to Action Styles */
+h2.cta-insides{
+    text-transform: uppercase;
+}
+
+p.cta-insides{
+    font-size: 1.0em;
+    font-weight: 200;
+}
+
 .cta-container {
+    border: 1px solid rgb(148, 148, 148);
     text-align: center;
-    padding: 40px;
-    background-color: navajowhite;
-    margin-top: 30px;
-    font-size: 15px;
+    font-size: 1.10em;
+    padding: 22px;
+    background-color: #ededed;
+    margin-top: 25px;
 }
 
-.cta-container h2 {
-    text-transform: uppercase; /* Uppercase text */
-    color: brown;
-}
-
-.cta-container p {
-    font-size: 20px; /* Increased font size */
-    font-weight: bold; /* Bold font */
-}
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: peru;
+    background-color: #eec387;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 10px;
-    border: 1px solid black;
+    border-radius: 5px;
     font-weight: bold;
     margin-top: 15px;
     transition: background-color 0.3s;
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #eddec9;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #97cedb;
+    color: #2a536b;
     text-align: center;
     padding: 20px;
 }
@@ -201,13 +201,13 @@ footer li {
 }
 
 footer a {
-    color: #fff;
+    color: #0c4565;
     text-decoration: none;
     transition: color 0.3s;  /* Smooth transition for hover effect */
 }
 
 footer a:hover {
-    color: #b3b3b3;  /* Lighter color on hover */
+    color: #c39f9f;  /* Lighter color on hover */
 }
 
 footer p {
