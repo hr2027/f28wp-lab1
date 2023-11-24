@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #632b2b;
+    color: #5a2626;
 }
  
 /* Header Styles */
@@ -12,7 +12,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: #dbc597;
+    background-color: #8b7d5d;
     color: #6b452a;
     text-align: center;
     padding: 20px;
@@ -39,7 +39,7 @@ header {
 /* Navigation Styles */
 
 nav ul {
-    background-color: #feffd9;
+    background-color: #7a7b58;
     color: #7df9bd;
     text-align: center;
     list-style-type: none;
@@ -247,12 +247,12 @@ p.cta-insides{
 }
 
 .cta-button:hover {
-    background-color: #edd9c9;
+    background-color: #98816d;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #dbd097;
+    background-color: #847d5a;
     color: #6b2a2a;
     text-align: center;
     padding: 20px;
